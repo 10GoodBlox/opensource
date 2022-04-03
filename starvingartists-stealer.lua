@@ -1,4 +1,3 @@
-if game.PlaceId ~= 8916037983 then return end
 local canvas = game:GetService("Workspace").Plots[targetUser].Easels:FindFirstChild(targetCanvas)
 
 for _,px in pairs(canvas.Canvas.SurfaceGui.Grid:GetChildren()) do
